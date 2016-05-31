@@ -1,4 +1,4 @@
-<h1 align="center">PyStalker</h1>
+<h1 align="center" id="pingetron">PyStalker</h1>
 <h4 align="center">[Internet status indicator app OSX/Windows/Linux]]</h4>
 
 <p align="center">
@@ -23,7 +23,7 @@ Pingetron is a very basic application built using <a href="http://electron.atom.
 ***
 
 ##Demo
-[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#Pingetron)
+[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
 
 Watch a live demo of it working here
 [![pingetron](https://github.com/amarlearning/Pingetron/raw/master/screenshot/demo.png)](https://youtu.be/D_JO7XkmahQ)
@@ -31,7 +31,7 @@ Watch a live demo of it working here
 ***
 
 ##Features
-[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#Pingetron)
+[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
  
 - **Fast update** - As soon as the internet stops, it immediately indicates you.
 - **Easy to use** - make it run once, it will start working as background application.
@@ -39,7 +39,7 @@ Watch a live demo of it working here
 ***
 
 ##Installation
-[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#Pingetron)
+[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
 
 #### Clone it
 
@@ -60,7 +60,7 @@ npm install & npm start
 ***
 
 ## Supported platforms
-[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#Pingetron)
+[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
 
 | OS | Support status | Download Link |
 | --- | --- | ---|
@@ -71,7 +71,7 @@ npm install & npm start
 ***
 
 ## Contributing
-[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#Pingetron)
+[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
 
 #### To-do
     
@@ -81,7 +81,7 @@ npm install & npm start
 ***
 
 ## Issues
-[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#Pingetron)
+[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
 
 You can report the bugs at the [issue tracker](https://github.com/amarlearning/Pingetron/issues)
 
@@ -92,7 +92,7 @@ You can [tweet me](https://twitter.com/amarpandey007) if you can't get it to wor
 ***
 
 ##License
-[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#Pingetron)
+[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
 
 Built with ♥ by Amar Prakash Pandey([@amarlearning](http://github.com/amarlearning)) under [MIT License](http://amarlearning.mit-license.org/) 
 
