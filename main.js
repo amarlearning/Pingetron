@@ -35,10 +35,10 @@ app.on('ready', function(){
         appIcon.destroy()
         appIcon = new Tray(iconPathWork);
       }
-      
+
     });
 
-  },500)
+  },1000)
 
   appIcon.setToolTip('Pingetron');
 
