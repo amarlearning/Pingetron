@@ -78,7 +78,7 @@ npm install & npm start
 #### To-do
     
 - [ ] All contributions accepted.
-- [ ] Change the image used as indicator.
+- [ ] Change the image which are being used as indicator.
 
 ***
 
