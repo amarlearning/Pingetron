@@ -1,5 +1,5 @@
 <h1 align="center" id="pingetron">PyStalker</h1>
-<h4 align="center">[Internet status indicator app OSX/Windows/Linux]]</h4>
+<h4 align="center">[Internet status indicator app for Linux/Windows/OSX]]</h4>
 
 <p align="center">
 <a href="http://amarlearning.mit-license.org/"><img src="https://img.shields.io/pypi/l/pyzipcode-cli.svg" alt="mit license"></a>
