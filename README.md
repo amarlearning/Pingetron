@@ -1,4 +1,4 @@
-<h1 align="center" id="pingetron">PyStalker</h1>
+<h1 align="center" id="pingetron">Pingetron</h1>
 <h4 align="center">[Internet status indicator app for Linux/Windows/OSX]]</h4>
 
 <p align="center">
