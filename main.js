@@ -10,8 +10,8 @@ const path = require('path');
 
 var isOnline = require('is-online');
 
-const iconPathWork = path.join(__dirname, 'images\\day-19.png');
-const iconPathNotWork = path.join(__dirname, 'images\\sunset-19.png');
+const iconPathWork = path.join(__dirname, 'images', 'day-19.png');
+const iconPathNotWork = path.join(__dirname, 'images', 'sunset-19.png');
 
 let appIcon = null;
 let win = null;
