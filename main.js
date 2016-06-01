@@ -27,18 +27,14 @@ app.on('ready', function(){
       isOnline(function(err, online) {
 
       if(!online) {
-        
-        appIcon.destroy()
-        appIcon = new Tray(iconPathNotWork);
+        appIcon.setImage(iconPathNotWork);
       } else {
-        
-        appIcon.destroy()
-        appIcon = new Tray(iconPathWork);
+        appIcon.setImage(iconPathWork);
       }
 
     });
 
-  },1000)
+  }, 4000)
 
   appIcon.setToolTip('Pingetron');
 
