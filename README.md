@@ -75,9 +75,10 @@ npm install & npm start
 ## Contributing
 [:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
 
+> All contributions accepted.
+
 #### To-do
-    
-- [ ] All contributions accepted.
+  
 - [ ] Change the image which are being used as indicator.
 - [x] Add quit application option in menu.
 - [ ] Application dosen't start if it is already running.
