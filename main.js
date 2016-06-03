@@ -18,13 +18,35 @@ let win = null;
 
 app.on('ready', function(){
 
-  win = new BrowserWindow({show:false});
+  win = new BrowserWindow({
+    show : false
+  });
 
   appIcon = new Tray(iconPathWork);
 
+  PingetronMenu = Menu.buildFromTemplate([
+    {
+      label : 'About',
+      click : function() {
+        aboutWindow = new BrowserWindow({
+          width:400,
+          height:400,
+          autoHideMenuBar : true
+        })
+        aboutWindow.loadURL('file://' + __dirname + '/about.html')
+      }
+    },
+    {
+      label : 'Quit',
+      click : function() {
+        app.quit()
+      }
+    }
+  ])
+
   setInterval(function () {
 
-      isOnline(function(err, online) {
+  isOnline(function(err, online) {
 
       if(!online) {
         appIcon.setImage(iconPathNotWork);
@@ -32,11 +54,12 @@ app.on('ready', function(){
         appIcon.setImage(iconPathWork);
       }
 
-    });
+  });
 
-  }, 4000)
+  }, 1000)
 
   appIcon.setToolTip('Pingetron');
+  appIcon.setContextMenu(PingetronMenu)
 
 });
 
