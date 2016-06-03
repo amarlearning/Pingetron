@@ -79,6 +79,8 @@ npm install & npm start
     
 - [ ] All contributions accepted.
 - [ ] Change the image which are being used as indicator.
+- [x] Add quit application option in menu.
+- [ ] Application dosen't start if it is already running.
 
 ***
 
