@@ -81,7 +81,7 @@ npm install & npm start
   
 - [ ] Change the image which are being used as indicator.
 - [x] Add quit application option in menu.
-- [ ] Application dosen't start if it is already running.
+- [ ] Application should not start if it is already running.
 
 ***
 
