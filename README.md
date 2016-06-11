@@ -64,11 +64,11 @@ npm install & npm start
 ## Supported platforms
 [:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
 
-| OS | Support status | Download Link |
-| --- | --- | ---|
-| Linux | :white_check_mark: Full support | <a href="">Download 32-bit-version</a> | <a href="">Download 64-bit-version</a>|
+| OS | Support status | Download Link 32 bit version | Download Link 64 bit version |
+| --- | --- | ---|---|
+| Linux | :white_check_mark: Full support | <a href="https://github.com/amarlearning/Pingetron/releases/download/linux-32-v1.0.1/Pingetron-linux-ia32.zip">Download 32-bit-version</a> | <a href="https://github.com/amarlearning/Pingetron/releases/download/linux-64-v1.0.1/Pingetron-linux-x64.zip">Download 64-bit-version</a>|
 | OS X | :white_check_mark: Full support  | <a href="">Download 32-bit-version</a> |<a href="">Download 64-bit-version</a> |
-| Windows | :white_check_mark: Full support | <a href="https://github.com/amarlearning/Pingetron/releases/download/windows32-ia32/Pingetron-win32-ia32.zip">Download 32-bit-version</a>|<a href="https://github.com/amarlearning/Pingetron/releases/download/windows32-ia32/Pingetron-win32-ia32.zip">Download 64-bit-version</a> |
+| Windows | :white_check_mark: Full support | <a href="https://github.com/amarlearning/Pingetron/releases/download/windows32-ia32/Pingetron-win32-ia32.zip">Download 32-bit-version</a>|<a href="https://github.com/amarlearning/Pingetron/releases/download/win-64-v1.0.1/Pingetron-win32-x64.zip">Download 64-bit-version</a> |
 
 ***
 
