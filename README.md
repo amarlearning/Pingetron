@@ -66,9 +66,9 @@ npm install & npm start
 
 | OS | Support status | Download Link |
 | --- | --- | ---|
-| Linux | :white_check_mark: Full support | <a href="">Download</a> |
-| OS X | :white_check_mark: Full support  | <a href="">Download</a> |
-| Windows | :white_check_mark: Full support | <a href="https://github.com/amarlearning/Pingetron/releases/download/windows32-ia32/Pingetron-win32-ia32.zip">Download 32-bit-version</a>|
+| Linux | :white_check_mark: Full support | <a href="">Download 32-bit-version</a> | <a href="">Download 64-bit-version</a>|
+| OS X | :white_check_mark: Full support  | <a href="">Download 32-bit-version</a> |<a href="">Download 64-bit-version</a> |
+| Windows | :white_check_mark: Full support | <a href="https://github.com/amarlearning/Pingetron/releases/download/windows32-ia32/Pingetron-win32-ia32.zip">Download 32-bit-version</a>|<a href="https://github.com/amarlearning/Pingetron/releases/download/windows32-ia32/Pingetron-win32-ia32.zip">Download 64-bit-version</a> |
 
 ***
 
