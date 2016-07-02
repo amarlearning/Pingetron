@@ -57,7 +57,7 @@ cd Pingetron
 npm install & npm start
 ```
 
-<b>Note :</b> You need to have installed NodeJs on you system.
+<b>Note :</b> You need to have NodeJs installed on your system.
 
 ***
 
