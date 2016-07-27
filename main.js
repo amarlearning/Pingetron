@@ -7,6 +7,8 @@
 
 const {app, Tray, Menu, BrowserWindow} = require('electron');
 const path = require('path');
+const batteryLevel = require('battery-level');
+const notifier = require('node-notifier');
 
 var isOnline = require('is-online');
 
@@ -21,6 +23,14 @@ app.on('ready', function(){
   win = new BrowserWindow({
     show : false
   });
+
+  setInterval(function () {
+    batteryLevel().then(level => {
+      notifier.notify({
+        'title': 'My notification',
+        'message': 'Hello, there!'
+      });
+  }, 1000);
 
   appIcon = new Tray(iconPathWork);
 
@@ -65,4 +75,4 @@ app.on('ready', function(){
 
 app.on('window-all-closed', () => {
   app.quit()
-})
+});
