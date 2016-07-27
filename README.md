@@ -6,6 +6,8 @@
 <a href="https://github.com/amarlearning/Pingetron/issues"><img src="https://camo.githubusercontent.com/926d8ca67df15de5bd1abac234c0603d94f66c00/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e747269627574696f6e732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c6174" alt="Issue"></a>
 </p>
 Pingetron is a very basic application built using <a href="http://electron.atom.io">Electron</a> and <a href="https://nodejs.org">NodeJs</a> which sends a request to the server and if the server responds, we say internet is working else internet is not working!
+<br><br>
+But wait this is not it. It will also inform you about the battery status. An indication in the form of notification will be provided whenever the battery is full[100%] or low[30%] or critically low[10%]. Because i am a good guy and i don't like wasting resources :stuck_out_tongue:.
 
 ##Index
 - [Demo](#demo)
