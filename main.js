@@ -15,6 +15,9 @@ var isOnline = require('is-online');
 const iconPathWork = path.join(__dirname, 'images', 'day-19.png');
 const iconPathNotWork = path.join(__dirname, 'images', 'sunset-19.png');
 
+// for notification, we don't want to disturbe anyone.
+var flag = 0;
+
 let appIcon = null;
 let win = null;
 
@@ -26,10 +29,28 @@ app.on('ready', function(){
 
   setInterval(function () {
     batteryLevel().then(level => {
-      notifier.notify({
-        'title': 'My notification',
-        'message': 'Hello, there!'
-      });
+      if(level == 1 && flag != 1) {
+        notifier.notify({
+          'title': 'Pingetron Notification',
+          'message': 'Battery full charged! Please unplug the charger & save energy!'
+        });
+        flag = 1;
+      }
+      if(level == 0.3 && flag != 2) {
+        notifier.notify({
+          'title': 'Pingetron Notification',
+          'message': 'Battery remaining 30%. Better plugIn to continue your work!'
+        });
+        flag = 2;
+      }
+      if(level == 0.1 && flag != 3) {
+        notifier.notify({
+          'title': 'Pingetron Notification',
+          'message': 'Battery level critical. PlugIn now to continue your work!'
+        });
+        flag = 3;
+      }
+    });
   }, 1000);
 
   appIcon = new Tray(iconPathWork);
