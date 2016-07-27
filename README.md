@@ -1,5 +1,5 @@
 <h1 align="center" id="pingetron">Pingetron</h1>
-<h4 align="center">[Internet status indicator app for Linux/Windows/OSX]</h4>
+<h4 align="center">[Internet & Battery status indicator app for Linux/Windows/OSX]</h4>
 
 <p align="center">
 <a href="http://amarlearning.mit-license.org/"><img src="https://img.shields.io/pypi/l/pyzipcode-cli.svg" alt="mit license"></a>
@@ -7,7 +7,7 @@
 </p>
 Pingetron is a very basic application built using <a href="http://electron.atom.io">Electron</a> and <a href="https://nodejs.org">NodeJs</a> which sends a request to the server and if the server responds, we say internet is working else internet is not working!
 <br><br>
-But wait this is not it. It will also inform you about the battery status. An indication in the form of notification will be provided whenever the battery is full[100%] or low[30%] or critically low[10%]. Because i am a good guy and i don't like wasting resources :stuck_out_tongue:.
+But wait this is not it. It will also inform you about the **Battery status**. An indication in the form of notification will be provided whenever the battery is full[100%] or low[30%] or critically low[10%]. Because i am a good guy and i don't like wasting resources :stuck_out_tongue:.
 
 ##Index
 - [Demo](#demo)
