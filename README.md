@@ -37,6 +37,7 @@ Watch a live demo of it working here
  
 - **Fast update** - As soon as the internet stops, it immediately indicates you.
 - **Easy to use** - make it run once, it will start working as background application.
+- **Battery status update** - A popup notification will indicate that battery is full charged, remove the charger.
 
 > P.S - No more time wasting in opening <a href="www.google.com">google.com</a> and check whether internet is working or not! 
 
