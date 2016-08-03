@@ -1,9 +1,11 @@
-// @Author: Amar Prakash Pandey
-// @Date:   2016-05-30
-// @Email:  amar.om1994@gmail.com  
-// @Github username: @amarlearning
-// MIT License. You can find a copy of the License
-// @http://amarlearning.mit-license.org
+/*
+* @Author: Amar Prakash Pandey
+* @Date:   2016-05-30
+* @Email:  amar.om1994@gmail.com  
+* @Github username: @amarlearning
+* MIT License. You can find a copy of the License
+* @http://amarlearning.mit-license.org
+*/
 
 const {app, Tray, Menu, BrowserWindow} = require('electron');
 const path = require('path');
