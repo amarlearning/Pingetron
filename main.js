@@ -20,6 +20,23 @@ const iconPathNotWork = path.join(__dirname, 'images', 'ic_sentiment_very_dissat
 // for notification, we don't want to disturb anyone.
 var flag = 0;
 
+//begin code for app.makeSingleInstance(callback)
+var myWindow = null;
+var shouldQuit = app.makeSingleInstance(function(commandLine, workingDirectory) {
+  // Someone tried to run a second instance, we should focus our window
+  if (myWindow) {
+    if (myWindow.isMinimized()) myWindow.restore();
+    myWindow.focus();
+  }
+  return true;
+});
+
+if (shouldQuit) {
+  app.quit();
+  return;
+}
+//END single instance code
+
 let appIcon = null;
 let win = null;
 
