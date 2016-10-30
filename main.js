@@ -17,7 +17,7 @@ var isOnline = require('is-online');
 const iconPathWork = path.join(__dirname, 'images', 'ic_sentiment_very_satisfied_black_24dp_2x');
 const iconPathNotWork = path.join(__dirname, 'images', 'ic_sentiment_very_dissatisfied_black_24dp_2x');
 
-// for notification, we don't want to disturbe anyone.
+// for notification, we don't want to disturb anyone.
 var flag = 0;
 
 let appIcon = null;
@@ -41,14 +41,14 @@ app.on('ready', function(){
       if(level == 0.3 && flag != 2) {
         notifier.notify({
           'title': 'Pingetron Notification',
-          'message': 'Battery remaining 30%. Better plugIn to continue your work!'
+          'message': 'Battery remaining 30%. Better plug in to continue your work!'
         });
         flag = 2;
       }
       if(level == 0.1 && flag != 3) {
         notifier.notify({
           'title': 'Pingetron Notification',
-          'message': 'Battery level critical. PlugIn now to continue your work!'
+          'message': 'Battery level critical. Plug in now to continue your work!'
         });
         flag = 3;
       }
