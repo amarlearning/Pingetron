@@ -14,8 +14,8 @@ const notifier = require('node-notifier');
 
 var isOnline = require('is-online');
 
-const iconPathWork = path.join(__dirname, 'images', 'day-19.png');
-const iconPathNotWork = path.join(__dirname, 'images', 'sunset-19.png');
+const iconPathWork = path.join(__dirname, 'images', 'ic_sentiment_very_satisfied_black_24dp_2x');
+const iconPathNotWork = path.join(__dirname, 'images', 'ic_sentiment_very_dissatisfied_black_24dp_2x');
 
 // for notification, we don't want to disturbe anyone.
 var flag = 0;
