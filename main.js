@@ -23,6 +23,15 @@ var flag = 0;
 let appIcon = null;
 let win = null;
 
+var shouldQuit = app.makeSingleInstance(function() {
+  return true;
+});
+
+if (shouldQuit) {
+  app.quit();
+  return;
+}
+
 app.on('ready', function(){
 
   win = new BrowserWindow({
