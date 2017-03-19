@@ -9,7 +9,7 @@ Pingetron is a very basic application built using <a href="http://electron.atom.
 <br><br>
 But wait this is not it. It will also inform you about the **Battery status**. An indication in the form of notification will be provided whenever the battery is full[100%] or low[30%] or critically low[10%]. Because i am a good guy and i don't like wasting resources :stuck_out_tongue:.
 
-##Index
+## Index
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
@@ -24,7 +24,7 @@ But wait this is not it. It will also inform you about the **Battery status**. A
 
 ***
 
-##Demo
+## Demo
 [:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
 
 Watch a live demo of it working here
@@ -32,7 +32,7 @@ Watch a live demo of it working here
 
 ***
 
-##Features
+## Features
 [:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
  
 - **Fast update** - As soon as the internet stops, it immediately indicates you.
@@ -43,7 +43,7 @@ Watch a live demo of it working here
 
 ***
 
-##Installation
+## Installation
 [:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
 
 #### Clone it
@@ -99,7 +99,7 @@ You can [tweet me](https://twitter.com/iamarpandey) if you can't get it to work.
 
 ***
 
-##License
+## License
 [:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Pingetron#pingetron)
 
 Built with ♥ by Amar Prakash Pandey([@amarlearning](http://github.com/amarlearning)) under [MIT License](http://amarlearning.mit-license.org/) 
